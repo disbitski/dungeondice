@@ -106,7 +106,7 @@ function getDiceRoll(intent, session, callback) {
     var sessionAttributes = {};
     var shouldEndSession = true;
     var speechOutput = "";
-    var diceSound = "<audio src='https://s3.amazonaws.com/dungeondice/dicesound.mp3'/>";
+    var diceSound = "<audio src='[YOURHOSTPATH]/dicesound.mp3'/>";
 
     console.log("IntentRequest Handled - DiceRollSize Intent - getDiceRoll() - Dice Type: "+ diceType);
 
